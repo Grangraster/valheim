@@ -1,0 +1,64 @@
+body{
+    background: linear-gradient(to bottom, rgb(44, 41, 2), #a74300 );
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h3{
+    color: rgb(196, 250, 0);
+}
+
+
+.welcome{
+    
+    width: 10%;
+    background-color: rgb(17, 2, 2);
+    overflow: hidden;
+    border-radius: 117px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url("numbahvalheim.jpg");
+    background-size:70% 120%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    height: 20%;
+    
+
+}
+
+.niche img {
+    width: 60%;
+    height: 75%;
+  
+}
+
+.niche{
+    position: relative;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 50%;
+    height: 50%;
+
+    background: linear-gradient(to bottom, rgb(153, 0, 255), #50752d );
+    overflow: hidden;
+}
+
+.riddlehint {
+    background-color: gray;
+    color: transparent;
+    border-radius: 10px;
+}
+
+.riddlehint:hover {
+    color: white;
+}
